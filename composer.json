@@ -1,0 +1,36 @@
+{
+    "name": "bogachevskes/yii2-app-basic",
+    "description": "Yii2 базовый шаблон проекта обучения",
+    "homepage": "https://stepik.org/users/405021601/profile",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Kirill Korotaevv",
+            "email": "kkorotaevv@mail.ru",
+            "homepage": "https://github.com/kkorotaevv"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.45",
+        "yiisoft/yii2-bootstrap5": "~2.0.2",
+        "symfony/var-dumper": "^7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer" : true
+        },
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+    font-family: Verdana;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.navbar-brand{
+    filter: invert(1) sepia(1) saturate(0.1);
+}
+
+div h2 {
+    color: gray;
+    font-size: 22px;
+    margin: 15px;  
+}
+
+.windowcalc{
+    margin:  auto;
+    font-family: Verdana;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.atribution{
+    font-family: Verdana;
+    font-size: 22px;
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+}
+
+.select{
+    font-family: Verdana;
+    font-size: 22px;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: left;
+    width: 95%;
+    
+}
+
+.button{
+    font-family: Verdana;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    background-color: green;
+    padding: 7px;
+    border-radius: 10px;
+    border: 3px;
+    left: -293px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.reset{
+    font-family: Verdana;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    background-color: red;
+    padding: 7px;
+    border-radius: 10px;
+    border: 3px;
+    left: -293px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
